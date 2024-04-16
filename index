@@ -1,0 +1,52 @@
+- index.html
+- css/
+  - style.css
+- js/
+  - script.js
+- places/
+  - gta5-places.json
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>GTA 5 Orte</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>GTA 5 Orte</h1>
+    
+    <form id="placeForm">
+        <label for="placeName">Ortsname:</label>
+        <input type="text" id="placeName" required>
+        
+        <label for="placeCoords">Koordinaten:</label>
+        <input type="text" id="placeCoords" required>
+        
+        <button type="submit">Ort hinzufügen</button>
+    </form>
+    
+    <div id="map"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+// TODO: Implementiere die Funktionen zum Hinzufügen von Orten und Anzeigen der Karte
+
+[]
